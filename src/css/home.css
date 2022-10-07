@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+body{
+    margin: 0;
+    background: url("../assets/mountains-55067.png") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.letter-space{
+    letter-spacing: 1.5px;
+}
+
+.main{
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.location-div{
+    width: 60%;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 6%;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 22%;
+}
+
+.temp-div{
+    display: flex;
+    font-size: 100px;
+}
+
+.degree{
+    vertical-align: super;
+    font-size: 50px;
+}
+
+.city-date-div{
+    padding-inline: 40px;
+}
+
+.city{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.date{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.cloud-status{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.data-div{
+    background-color: #1b1416;
+    width: 40%;
+    opacity: 0.55;
+    padding-top: 20px;
+    padding-inline: 50px;
+    box-sizing: border-box;
+    padding-right: 0px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.data-div:hover{
+    opacity: 0.85;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.location-input{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    margin-inline-end: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 45%;
+    color: #dbdbdb;
+    letter-spacing: 1.5px;
+}
+.location-input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.location-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.location-input:last-child{
+    margin-inline-end: 0px;
+}
+
+.location-input:focus{
+    outline: none;
+}
+
+.submit-btn{
+    background-color: #f1b38d;
+    width: 70px;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+
+}
+
+.input-form{
+    padding-bottom: 60px;
+}
+
+.table-div-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.weather-desc{
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.weather-desc:hover{
+    text-decoration: underline;
+}
+
+table{
+    width: 80%;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin-top: 25px;
+}
+
+th{
+    font-weight: 400;
+}
+
+.margin-top{
+    margin-top: 25px;
+}
